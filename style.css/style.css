@@ -1,0 +1,104 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #2b5166;
+  display: flex;
+}
+
+nav {
+  width: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 23px;
+}
+
+.main-container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 800;
+  padding: 0 80px;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+.texttop {
+  margin-top: 81px;
+  margin-left: 91px;
+  width: fit-content;
+}
+
+.text1 {
+  color: #2b5166;
+  font-weight: 600;
+  font-size: 41px;
+  width: 430px;
+}
+
+.text2 {
+  color: #429867;
+  font-weight: 500px;
+  font-size: 20px;
+  width: 430px;
+  margin-top: 4px;
+}
+
+.text-footer {
+  text-align: center;
+}
+
+.botao {
+  background-color: #f9cb38;
+  text-align: center;
+  margin-top: 25px;
+  border: none;
+  border-radius: 16px;
+  width: 171px;
+  height: 52px;
+  color: #2b5166;
+  font-weight: 800;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.student {
+  margin-top: 30px;
+}
+
+.container-down {
+  display: flex;
+}
