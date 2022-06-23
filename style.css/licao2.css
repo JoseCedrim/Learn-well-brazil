@@ -1,0 +1,27 @@
+.container-capitulo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.introducao2 {
+  background-color: #f9cb38;
+  font-size: 41px;
+  text-align: center;
+  margin-top: 63px;
+  border-radius: 16px;
+  width: 680px;
+  height: 52px;
+  color: #2b5166;
+  font-weight: 600;
+}
+
+.licao1 {
+  font-size: 41px;
+  text-align: center;
+  margin-top: 30px;
+  width: 253px;
+  height: 52px;
+  color: #2b5166;
+  font-weight: 600;
+}
