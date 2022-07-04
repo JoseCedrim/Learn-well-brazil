@@ -4,19 +4,19 @@
   flex-direction: column;
 }
 
-.introducao {
+.introducao2 {
   background-color: #f9cb38;
   font-size: 41px;
   text-align: center;
   margin-top: 63px;
   border-radius: 16px;
-  width: 253px;
+  width: 680px;
   height: 52px;
   color: #2b5166;
   font-weight: 600;
 }
 
-.licao1 {
+.licao3 {
   font-size: 41px;
   text-align: center;
   margin-top: 30px;
@@ -25,13 +25,13 @@
   color: #2b5166;
   font-weight: 600;
 }
-
 .licao {
+  text-align: center;
   width: 1339px;
   text-align: center;
   text-align: justify;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 57px;
 }
 
 .licao p {
@@ -39,20 +39,10 @@
   color: #429867;
 }
 
-.proxima-licao {
-  text-align: center;
-}
-
-.proxima-licao-b {
-  cursor: pointer;
-  background-color: #429867;
-  text-align: center;
-  border: none;
-  border-radius: 16px;
-  width: 253px;
-  height: 52px;
-  color: #2b5166;
-  font-weight: 600;
-  font-size: 30px;
-  margin-top: 250px;
+.lista-licao {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 20px;
+  color: #429867;
 }

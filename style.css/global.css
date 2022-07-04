@@ -43,7 +43,7 @@ ul {
   padding: 0 80px;
 }
 
-li {
+.li-menu {
   list-style: none;
   text-decoration: none;
 }
@@ -51,4 +51,31 @@ li {
 li a {
   text-decoration: none;
   color: white;
+}
+
+.button {
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  border-radius: 16px;
+  font-weight: 600;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 8px 14px;
+}
+
+.green-button {
+  background-color: #429867;
+  color: #2b5166;
+}
+.yellow-button {
+  background-color: yellow;
+  color: #2b5166;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 204px;
+  margin: 70px;
 }
