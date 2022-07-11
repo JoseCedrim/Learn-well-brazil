@@ -4,7 +4,6 @@
 
 body {
   margin: 0;
-  font-size: 20px;
 }
 
 header {
@@ -79,4 +78,61 @@ li a {
   justify-content: center;
   gap: 204px;
   margin: 70px;
+}
+
+ul li {
+  list-style: none;
+  margin: 0 auto;
+  display: inline-block;
+  padding: 0 30px;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+}
+
+li:hover {
+  cursor: pointer;
+}
+.li-a {
+  color: #f9cb38;
+}
+ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  padding-left: 0;
+  left: 0;
+  display: none;
+  background: #2b5166;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  min-width: 250px;
+  text-align: left;
+  padding-top: 20px;
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 20px;
+  border-style: none;
+}
+
+ul li ul li a:hover {
+  padding-left: 10px;
+  transition: all 0.3s ease;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li ul li a {
+  transition: all 0.5s ease;
 }
