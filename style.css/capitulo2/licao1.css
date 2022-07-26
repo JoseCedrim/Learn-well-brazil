@@ -1,0 +1,58 @@
+.container-capitulo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.introducao {
+  background-color: #f9cb38;
+  font-size: 41px;
+  text-align: center;
+  margin-top: 63px;
+  border-radius: 16px;
+  width: 400px;
+  height: 52px;
+  color: #2b5166;
+  font-weight: 600;
+}
+
+.licao1 {
+  font-size: 41px;
+  text-align: center;
+  margin-top: 30px;
+  width: 253px;
+  height: 52px;
+  color: #2b5166;
+  font-weight: 600;
+}
+
+.licao {
+  width: 1339px;
+  text-align: center;
+  text-align: justify;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.licao p {
+  padding: 10px;
+  color: #429867;
+}
+
+.proxima-licao {
+  text-align: center;
+}
+
+.proxima-licao-b {
+  cursor: pointer;
+  background-color: #429867;
+  text-align: center;
+  border: none;
+  border-radius: 16px;
+  width: 253px;
+  height: 52px;
+  color: #2b5166;
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 250px;
+}

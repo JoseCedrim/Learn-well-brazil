@@ -136,3 +136,13 @@ a {
 ul li ul li a {
   transition: all 0.5s ease;
 }
+
+dt {
+  padding: 5px;
+}
+
+.imagem-central {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
