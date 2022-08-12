@@ -146,3 +146,34 @@ dt {
   justify-content: center;
   margin-top: 40px;
 }
+
+.texto-imagem p {
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  color: #2b5166;
+}
+
+.p-red p {
+  color: red;
+}
+
+.p-yellow p {
+  color: #f9cb38;
+}
+
+.p-green {
+  color: #429867;
+}
+
+.p-colors {
+  display: flex;
+  justify-content: flex-start;
+}
+
+h3 {
+  color: #2b5166;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 10px;
+}
